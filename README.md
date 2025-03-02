@@ -75,9 +75,5 @@
 
 For any questions or contributions, reach out via email: **[contact@elevateacademy.org](mailto\:faikaaf123@gmail.com)**
 
----
 
-### 🌍 Live Demo (If hosted)
-
-🔗 [Visit Elevate Academy Website](#) *(Replace with actual link)*
-
+![Screenshot (85)](https://github.com/user-attachments/assets/6bc40d46-d069-43b6-ac6d-c924531a7fcc)
