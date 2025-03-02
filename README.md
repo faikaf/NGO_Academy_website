@@ -73,7 +73,7 @@
 
 ## 📞 Contact
 
-For any questions or contributions, reach out via email: **[contact@elevateacademy.org](mailto\:contact@elevateacademy.org)**
+For any questions or contributions, reach out via email: **[contact@elevateacademy.org](mailto\:faikaaf123@gmail.com)**
 
 ---
 
