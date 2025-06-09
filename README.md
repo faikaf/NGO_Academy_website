@@ -2,7 +2,7 @@
 
 ## 📌 About the Project
 
-**Elevate Academy** is a nonprofit organization committed to transforming the lives of children in rural communities by providing access to **education, skill development, and mentorship programs**. This website serves as an online platform to share our mission, engage volunteers, and encourage donations.
+**A WEBSITE FOR AN NGO Elevate Academy**Detailed information on the NGO's mission and objectives. This website serves as an online platform to share our mission, engage volunteers, and encourage donations.
 
 ---
 
