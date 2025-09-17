@@ -1,0 +1,348 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color:#ffffff;
+    box-shadow: 0px 0px 5px black;
+}
+nav .left-box{
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+h2{
+    margin: 0;
+    line-height: 0.6;
+}
+#logotag{
+    font-size: 12px;
+    margin: 0px;
+}
+
+nav .right-box{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+nav .right-box ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content:right;
+}
+nav .right-box ul li{
+    display: inline-block;
+    padding:2% 2%;
+}
+nav .right-box ul li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    
+}
+nav .right-box ul li a:hover{
+    color: #e47542;
+}
+nav .right-box ul li button{
+    width: 130px;
+    height: 50px;
+    background-color: #e47542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+nav .right-box ul li button:hover{
+    background-color: #e0510f;
+    color: white;
+    border: 2px solid#be3c00;
+}
+/* Header........................................ */
+header{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+header .left-header{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    float: left;
+    padding: 100px 0px 0px 100px;
+    box-sizing: border-box;
+    overflow:auto;
+}
+header .left-header h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+header .left-header h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin: 0;font-weight: normal;
+}
+header .left-header button{
+    width: 80px;
+    height: 50px;
+    background-color: #e47542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+}
+header .left-header button:hover{
+    background-color:#e0510f;
+    color:white;
+    border:2px solid#be3c00;
+}
+header .right-header{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+hr{
+    background-color: #e0510f;
+    height: 1px;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.about .left-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.about .left-box .front ,.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.about .left-box .front{
+    background-image: url(../assets/im1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+.about .left-box .back{
+    background-image: url(../assets/im3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    transform: rotateY(180deg);
+    cursor: pointer;
+
+}
+.about .left-box:hover{
+    transform: rotateY(180deg);
+}
+.about .right-box{
+    width: 50%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+}
+.about .right-box h1{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30%;
+    color: black;
+}
+.about .right-box h4{
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: normal;
+    color:rgb(83, 83, 83);
+}
+.vision h2{
+    text-align: center;
+}
+.vision h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    font-weight: normal;
+    padding: 10px 5% 0px 5% ;
+}
+.vision ul{
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: normal; 
+    padding: 10px 5% 0px 5% ;
+}
+.vision ul li{
+    font-size: 18px;
+    font-weight: bold;
+}
+.vision ul  p{
+    color:rgb(83, 83, 83) ;
+}
+.involve{
+    background-image: url(../assets/im5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #b4cbd0;
+}
+.involve h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.involve h4{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    font-weight: normal;
+    padding: 10px 5% 0px 5% ;
+}
+.involve ul li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.involve ul li span{
+    font-size: 16px;
+    color:rgb(83, 83, 83);
+}
+.box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box img{
+    transition: transform 2s;
+}
+.box img:hover{
+    transform:scale(1.1);
+}
+.events{
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap :10Px;
+    margin-top:20px;
+}
+
+.events .cardq{
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color:#b4cbd0;
+    height: 80%;
+    transition:transform 1s ;
+    border-radius: 5px;
+}
+
+
+/* contact*/
+.con{
+    width:100%;
+    max-width:auto;
+    background-color:white;
+    margin:20px;
+    padding:30px;
+    border-radius:8px;
+}
+.con .hd{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:20px;
+    color: #45a049;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.con .form{
+    width:100%;
+    margin:auto;
+}
+.con .form .inf { 
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+
+}
+.con .form .inf label{
+    width:60%;
+    margin-right:10px;
+    font-size:14px;
+}
+
+
+.con .form .inf .input
+{   
+    width:40%;
+    font-size:12px;
+    padding:8px 20x;
+    border-radius:3px;
+    border:1px solid black;
+    height:25px;
+}
+
+input:focus{
+    border:1px solid rgba(236, 151, 23, 0.996) !important;
+    outline: none;
+}
+
+.con .form .inf .btn{
+    width:20%;
+    border-radius:3px;
+    padding:8px 10px;
+    font-size:24px;
+    background-color:#e47542;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
+}
+.con .form .inf .btn:hover{
+    background:#fa783c;
+}
+@media(max-width:405px){
+    .con .form .inf { 
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
+
+
+
+.error {
+    word-wrap: break-word; /* Forces text to wrap */
+    white-space: normal; /* Prevents horizontal scrolling */
+    max-width:100%; /* Restricts the width */
+}
